@@ -10,11 +10,12 @@ const REDIRECT_URI = "http://localhost:3000/redirect";
 
 // Before running the sample, you will need to replace the values in the config, 
 // including the clientSecret
+// CircularHR: Aqui fue cambiado el codigo del ejemplo
 const config = {
     auth: {
-        clientId: "Enter_the_Application_Id_Here",
-        authority: "Enter_the_Cloud_Instance_Id_HereEnter_the_Tenant_Info_Here",
-        clientSecret: "Enter_the_Client_Secret_Here"
+        clientId: "965237dc-a3aa-4cfc-95d4-7457def37c28", // clientId: "Enter_the_Application_Id_Here",
+        authority: "https://login.microsoftonline.com/common", // authority: "Enter_the_Cloud_Instance_Id_HereEnter_the_Tenant_Info_Here",
+        clientSecret: "T6HA9n4Y_EbP8WIu2Q_Ngvy_S~n-qX~PXo" // clientSecret: "Enter_the_Client_Secret_Here"
     },
     system: {
         loggerOptions: {
